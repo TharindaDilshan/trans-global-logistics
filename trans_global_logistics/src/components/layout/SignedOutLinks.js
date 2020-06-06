@@ -17,7 +17,6 @@ const SignedOutLinks = () => {
                     <Nav.Link as={NavLink} to='/about' style={{textDecoration: 'none'}}>About</Nav.Link>
                     <Nav.Link as={NavLink} to='/services' style={{textDecoration: 'none'}}>Services</Nav.Link>
                     <Nav.Link as={NavLink} to='/contact' style={{textDecoration: 'none'}}>Contact</Nav.Link>
-                    <Nav.Link as={NavLink} to='/signin' style={{textDecoration: 'none'}}><Button variant="primary">Login</Button></Nav.Link>
                 </Nav>
                 </Navbar.Collapse>
                 
