@@ -1,7 +1,4 @@
 import React from 'react'
-import {connect } from 'react-redux'
-import {sendFeedback} from '../../store/actions/customerActions'
-
 
 class Contact extends React.Component{
 
@@ -20,17 +17,7 @@ class Contact extends React.Component{
     
     handleSubmit = (e) => {
         e.preventDefault();
-        // console.log(this.state);
-        // this.props.sendInquiries(this.state)
-        var variables ={
-            message_html: this.state.message, 
-            from_name: this.state.name, 
-            reply_to: this.state.email
-        }
-        this.props.sendFeedback(variables)
-        // this.setState({
-        //    [ e.target.value]:null
-        // })
+        console.log('submit')
     }
 
  
@@ -110,11 +97,5 @@ class Contact extends React.Component{
     }
     
 }
-const mapDispatchToProps = (dispatch) => {
-    return{
-        // sendInquiries : (message) => dispatch(sendInquiries(message)),
-        sendFeedback : (variables) =>dispatch(sendFeedback(variables))
-    }
-}
 
-export default connect(null,mapDispatchToProps)(Contact)
+export default Contact

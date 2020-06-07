@@ -1,8 +1,6 @@
 import React from 'react'
 import Carousel from 'nuka-carousel';
 
-
-
 const hStyle = {
     fontSize: '64px',
 }
