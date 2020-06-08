@@ -1,8 +1,6 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
-import Button from 'react-bootstrap/Button'
 import {Navbar, Nav} from 'react-bootstrap'
-import { FaAlignJustify } from "react-icons/fa";
 
 // Signed out links for unregistered customers
 const SignedOutLinks = () => {

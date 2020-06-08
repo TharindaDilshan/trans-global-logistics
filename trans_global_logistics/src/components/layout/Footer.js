@@ -21,10 +21,10 @@ const Footer = () => {
                     <div className="col-md-2 col-lg-2 col-xl-2 mx-auto">
                         <h4>Services</h4>
                         <hr className="bg-white mb-2 mt-0 d-inline-block mx-auto w-25"/>
-                        <p><NavLink to='/signin' className="text-white">Imports</NavLink></p>
-                        <p><NavLink to='/signin' className="text-white">Exports</NavLink></p>
-                        <p><NavLink to='/signin' className="text-white">Project Cargo</NavLink></p>
-                        <p><NavLink to='/signin' className="text-white">Consultation</NavLink></p>
+                        <p>Imports></p>
+                        <p>Exports</p>
+                        <p>Project Cargo</p>
+                        <p>Consultation</p>
                     </div>
 
                     <div className="col-md-3 col-lg-2 col-xl-2 mx-auto">
@@ -53,7 +53,7 @@ const Footer = () => {
             {/* Copyright */}
             <div className="container-fluid">
                 <p className="text-center m-0 py-1">
-                    © 2019 Copyright <a href="<?php echo base_url('Homepage')?>" className="text-white">TRANS GLOBAL LOGISTICS</a>
+                    © 2020 Copyright <a href="<?php echo base_url('Homepage')?>" className="text-white">TRANS GLOBAL LOGISTICS</a>
                 </p>
             </div>
 
