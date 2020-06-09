@@ -229,6 +229,7 @@ background-size: cover;
 }
 .navbar{
   z-index: 9999;
+  width: 100%;
 }
 
 .navbar-brand {
