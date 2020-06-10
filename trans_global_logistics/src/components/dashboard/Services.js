@@ -12,7 +12,7 @@ const Services = () => {
                 <br/>
                 <div className="row">
                     <div className="col-md-6 how-img">
-                        <img src="https://www.marsshipping.net/pcat-gifs/products-small/project-odc-shipments.jpg" className="rounded-circle img-fluid" alt=""/>
+                        <img src="http://www.centrepolelogistics.com/imgs/services/project-cargo.jpg" className="rounded-circle img-fluid" alt=""/>
                     </div>
                     <div className="col-md-6">
                         <h4>PROJECT CARGO</h4>
@@ -36,8 +36,8 @@ const Services = () => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-6 how-img img2">
-                            <img src="https://www.eurofret.com/wp-content/uploads/2017/12/entreposage-eurofret.jpg" className="rounded-circle img-fluid" alt=""/>
+                    <div className="col-md-6 how-img img2" style={{width: '60%'}}>
+                            <img src="https://www.eurofret.com/wp-content/uploads/2017/12/entreposage-eurofret.jpg" className="rounded-circle img-fluid"  alt=""/>
                     </div>
                     <div className="col-md-6">
                         <h4>WAREHOUSING</h4>
